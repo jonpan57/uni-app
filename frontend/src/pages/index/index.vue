@@ -11,11 +11,11 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello World, Happy!'
 			}
 		},
 		onLoad() {
-
+			console.log("页面初始化")
 		},
 		methods: {
 

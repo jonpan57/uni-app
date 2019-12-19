@@ -1,17 +1,21 @@
 <script>
-	export default {
-		onLaunch: function() {
-			console.log('App Launch')
-		},
-		onShow: function() {
-			console.log('App Show')
-		},
-		onHide: function() {
-			console.log('App Hide')
-		}
-	}
+    export default {
+        // 应用生命周期
+        onLaunch: function () {
+            console.log('App Launch');
+        },
+        onShow: function () {
+            console.log('App Show')
+        },
+        onHide: function () {
+            console.log('App Hide')
+        },
+        onError: function () {
+            console.log('App Error')
+        }
+    }
 </script>
 
 <style>
-	/*每个页面公共css */
+    /*每个页面公共css */
 </style>
